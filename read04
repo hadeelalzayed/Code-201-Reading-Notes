@@ -1,0 +1,76 @@
+ Links are the defining feature of the web, because they let you move from one page to another. You usually use links for the following:
+1. links one website to another.
+2. Links a page to another on the say website.
+3. Links from one part of a webpage to another part.
+4. Links that open a new browser.
+5. Links that start up ur email and send new mail to someone.
+Links allow you to move from one web page to another — enabling the very of browsing. Links are done by:
+
+< a href="http://www.imdb.com" >IMDB< /a >
+
+There are several ways to use links on HTML:
+
+- **Linking to other sites** by < a href="url" >
+- **Linking to other pages on the same site** by adding the url to the page inside the href
+- **Linking to a specific part of the same page**
+by < a href="#arc_shot">Arc Shot< /a > < br />
+
+## Relative URLS
+
+Relative URLS help you link to other pages on the same site. Here are areas that we can link to:
+
+Relative Link Type | Example
+-------------------|--------
+Same Folder | < a href="reviews.html">Reviews</a>
+Child Folder | < a href="music/listings.html">Listings</a>
+Grandchild Folder |< a href="movies/dvd/reviews.html">
+Parent Folder | < a href="../index.html">Home</a>
+Grandparent Folder | < a href="../../index.html">Home</a>
+
+## The Directory Structure
+
+When websites are large, it is preferable to organize your code by placing the pages of different sections into a new folder (structure - relationships - homepages)
+
+## Layout
+
+### Positioning elements
+
+CSS treats each HTML element as if it is in its own box, by being either or block leverl box or an inline box (h1, p, ul, li)
+
+**Block level element** : start on a new line
+**Inline elements** : FLow in between surrounding text
+(img, b, i)
+
+### Controlling the position of an element
+
+CSS has different positioning schemes that allow you to control tge layout of the page:
+
+1. Normal flow (every block-level element appears on a new line)
+2. Relative positioning (moves an element from the position it would normally be)
+3. Absolute positioning (positions an element in relation to its containing element)
+
+To indicate where a box should be positioned we need the box offset properties;
+
+- Fixed positioning: positions the element in relation to the brower window
+- Floating element: allows you to take that element out of normal flow and position it to the far left or right of a containing box
+
+### Postition CSS syntax
+
+Property | syntax
+--------------|----------
+Normal Flow | position:static
+Relative Position | position:relative
+Absolute Postion | postion:absolute
+Fixed Postion | position:fixed
+
+## JavaScript Scripts
+
+A **script** is made up of a series of statements. Each statement is like a step in a recipe. They contain very precise instructions; like specifying that a value has to be stroed before creating a calculation.
+
+**Variables** on the other hand are used to temporarily store the information for it to run. To make it more organised, *arrays* are used to store more than one piece of the related information.
+
+JavaScript can recognize the following:
+
+- Numbers (0-9)
+- Strings ('text')
+- Boolean (true or false)
