@@ -1,0 +1,22 @@
+here are two keywords used with loops:
+break :
+This keyword causes the termination of the loop and tells
+the interpreter to go onto the next statement of code outside
+of the loop. (
+continue:
+This keyword tell the interpreter to continue with the current
+iteration, and then check the condition again. 
+
+HTML
+
+Lists in HTML : ordered lists, unordered lists, and definition lists
+
+The <ol></ol tag is used to define an ordered list, the <ul></ul> is used to define an unordered list, and the tag <dl></dl> to define a definition list.
+
+LOOPS
+
+for(var i=0; condition; i++){    block of code;}
+while(condition){    block of code;}
+do{    block of code;}while(condition);
+Edited by Hadeel alzayed on Oct 6 at 10:52pm
+read3 razan 2-1.PNG
