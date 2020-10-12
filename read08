@@ -1,0 +1,29 @@
+Links are the defining feature of the web, because they let you move from one page to another. You usually use links for the following:
+
+There are several ways to use links on HTML:
+
+- **Linking to other sites** by < a href="url" >
+
+*Linking to other pages on the same site** by adding the url to the page inside the href
+
+**Linking to a specific part of the same page** etc
+
+When websites are large, it is preferable to organize your code by placing the pages of different sections into a new folder (structure - relationships - homepages)
+<a> Links are created using the element which has an attribute called href. The value of the href attribute is the page that you want people to go to when they click on the link.
+
+Absolute URL When you link to a different website, the value of the href attribute will be the full web address for the site.
+
+Relative URL When you are linking to other pages within the same site.
+
+Directories Folders on a website.
+
+mailto: To create a link that starts up the user's email program and addresses an email to a specified email address.
+
+target If I want a link to open in a new window.
+Property	What it does
+position: static;	Default positiont value
+position: relative;	Relative positioning moves an element in relation to where it would have been in normal flow.
+position:absolute;	box is taken out of normal flow and no longer affects the position of other elements on the page
+position:fixed;	is a type of absolute positioning that requires the position property to have a value of fixed
+z-index: value;	control which element sits on top when elements are covering one another
+float: value;	allows you to take an element in normal flow and place it as far to the left or right of the containing element as possible
