@@ -1,0 +1,76 @@
+ (Links to an external site.)File Input Box
+<input> type="file"
+
+ (Links to an external site.)Submit Button and Image Button
+<input> type="submit" type="image"
+
+ (Links to an external site.)Chapter 14: Lists, Tables & Forms
+ (Links to an external site.)Lists
+list-style-type
+
+list-style-image
+
+list-style-position
+
+list-style
+
+ (Links to an external site.)Tables
+width padding text-transform letter-spacing, font-size border-top, border-bottom text-align background-color :hover
+
+empty-cells border-spacing border-collapse
+
+ (Links to an external site.)Forms
+ (Links to an external site.)Styling text input
+font-size color background-color border border-radius :focus :hover background-image
+
+ (Links to an external site.)Kye points:
+Forms are easier to use if the form controls are vertically aligned using CSS.
+
+Forms benefit from styles that make them feel more interactive.
+
+ (Links to an external site.)Chapter 6: Events
+HTML events are "things" that happen to HTML elements. When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+
+ (Links to an external site.)How Events Trigger Javascript Code
+By Event Handling
+
+Select the element node(s) you want the script to respond to.
+
+Indicate which event on the selected node(s) will trigger the response.
+
+State the code you want to run when the event occurs.
+
+ (Links to an external site.)DOM Event Handlers
+element.onevent = functionName;
+
+ (Links to an external site.)Events Listeners
+element .addEventlistener('event', functionName [, Boolean]) ;
+
+ (Links to an external site.)The Event Object
+When an event occurs, the event object tells you information about the event, and the element it happened upon.
+
+ (Links to an external site.)Kye points
+Events are the browser's way of indicating when something has happened.
+
+Binding is the process of stating which event users are waiting to happen, and which element users are waiting for that event to happen upon.
+
+When an event occurs on an element, it can trigger a JavaScript function. When this function then changes the web page in some way, it feels interactive because it has responded to the user.
+
+Event delegation are used to monitor for events that happen on all of the children of an element.
+
+The most commonly used events are W3C DOM events.
+- 'Form' has referred to a printed document that contains spaces for you to fill information.
+- There are several types of form controls that you can use to collect data from visitors here are some of teh following:
+## Adding text:
+- text input: used for a single line of text like emails.
+- Password input : Is a single line text box where it masks the charcters.
+- Text area: for longer areas of texts.
+## Making choices
+- Radio Buttons: For use when a suer must select a set options.
+- Checkboxes: when a user can select and unselect options.
+- Drop-down boxes: when a user must pick one of the number of options.
+## Submitting forms
+- Submit buttons: to submit data from your form to another web page.
+- Image buttons: similar to submit buttons but they allow you to use an image.
+- File upload: allows users to upload files to a website.
+- How do forms work, forms work when a user fill in a form and presses a button to submit, the information then is sent though a server with the user entries, then the server procees the information using a programming language.
