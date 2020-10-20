@@ -1,0 +1,117 @@
+Transforms
+With CSS3 came new ways to position and alter elements. Now general layout techniques can be revisited with alternative ways to size, position, and change elements.
+All of these new techniques are made possible by the transform property.
+The transform property comes in two different settings, two-dimensional and three-dimensional. Each of these come with their own individual properties and values.
+
+Transitions & Animations
+With CSS3 transitions you have the potential to alter the appearance and behavior of an element whenever a state change occurs, such as when it is hovered over, focused on, active, or targeted.
+Animations within CSS3 allow the appearance and behavior of an element to be altered in multiple keyframes. Transitions provide a change from one state to another, 
+while animations can set multiple points of transition upon different keyframes.
+
+8 SIMPLE CSS3 TRANSITIONS
+ Fade in,Change color,Grow & Shrink, Rotate elements
+ Square to circle,3D shadow,Swing,Inset border
+ 
+ HTML 
+<div class="group">
+		<button class="blam">Blam</button>
+		<button style="-webkit-animation-delay: .3s;animation-delay: .3s;" class="syke">Syke</button>
+		<button style="-webkit-animation-delay: .6s;animation-delay: .6s;" class="later">Later</button>
+	</div>
+   CSS
+   @import url(https://fonts.googleapis.com/css?family=Droid+Sans:700);
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+			transition: all .1s;
+		}
+		body{
+		background-color: #424242;
+			font-family: 'Droid Sans', sans-serif;
+		}
+		.group{
+			text-align: center;
+			margin: 20px auto;
+		}
+		.group button{
+			margin-top: 10px;
+		}
+		button{
+/*			box-sizing: border-box;*/
+			background: NONE;
+			border: none;
+			outline: none;
+			border-radius: 3px;
+			padding: 15px 70px;
+			color:white;
+			text-transform: uppercase;
+			font-weight: 700;
+			text-shadow: 0 1px 3px rgba(0, 0, 0, 0.41);
+			box-shadow: 0 3px 0 0 #383838;
+			border:3px solid transparent;
+			
+		
+			animation: pulse 1s linear infinite alternate;
+			-webkit-animation: pulse 1s linear infinite alternate;
+		}
+		.active,
+		button:active{
+			background-image: linear-gradient(rgba(0,0,0,.1) 13%, transparent 13%,transparent);
+			box-shadow: 0 1px 0 0 #383838;
+			color: rgba(0, 0, 0,.45);
+			text-shadow: none;
+			
+			
+			-webkit-animation-play-state: paused; 
+    	animation-play-state: paused;
+		}
+		button:focus,
+		button:hover{
+			-webkit-animation-play-state: paused; 
+    	animation-play-state: paused;
+		}
+		
+		
+		.blam:focus,
+		.blam:hover{
+			background-color:#0097bd;
+		}
+		.blam{
+			background-color:#00bff0;
+			border-color: #00bff0;
+		}
+		
+		.syke:focus,
+		.syke:hover{
+			background-color:#ad4e4e;
+		}
+		.syke{
+			background-color:#e06464;
+			border-color:#e06464;
+		}
+		
+		.later:focus,
+		.later:hover{
+			background-color:#7c8b8f;
+		}
+		.later{
+			background-color:#a8bdc2;
+			border-color:#a8bdc2;
+		}
+		
+		@-webkit-keyframes pulse {
+			100% {
+				transform: translateY(6.9px); 
+			} 
+		}
+
+		@keyframes pulse {
+			100% {
+				transform: translateY(6.9px); 
+			} 
+		}
+    
+    Js
+    //author: https://dribbble.com/shots/1527712-Buttons
+    
